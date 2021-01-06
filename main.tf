@@ -48,7 +48,7 @@ resource "google_kms_crypto_key" "my-first-key" {
 resource "google_compute_network" "private_network" {
   provider = google-beta
 
-  name = "private-network"
+  name = "private-network-new"
 }
 
 resource "google_compute_global_address" "private_ip_address" {
